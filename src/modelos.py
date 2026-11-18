@@ -39,4 +39,4 @@ def treinar(caminho_csv, caminho_saida):
             tamanho = len(modelo["vetorizador"].vocabulary_)
             f.write(f"Config {nome}: {tamanho}\n")
 
-    return modelos, x_train, y_train
+    return modelos, x_train, y_train, x_test, y_test
