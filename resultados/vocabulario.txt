@@ -1,0 +1,5 @@
+Tamanho do vocabulário aprendido no treino:
+Config A: 420
+Config B: 420
+Config C: 404
+Config D: 404
