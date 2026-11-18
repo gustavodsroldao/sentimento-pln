@@ -1,0 +1,21 @@
+Número de linhas: 260
+
+Distribuição das classes:
+negativo: 130 50.0%
+positivo: 130 50.0%
+
+Tamanho médio dos textos em palavras por classe:
+negativo: 7.71
+positivo: 7.70
+
+3 exemplos de cada classe:
+
+Classe: negativo
+-> Detestei o fone, ruim, nunca mais compro
+-> O curso não é incrível
+-> O filme não atendeu o que eu esperava, nunca mais compro
+
+Classe: positivo
+-> Entrega rápida e embalagem bem protegida, tudo certo
+-> Me surpreendi, achei que seria pior mas a qualidade é muito boa
+-> O suporte foi incrível, resolveram meu problema em minutos
