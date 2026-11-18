@@ -1,4 +1,5 @@
 from src.avaliacao import avaliar
+from src.dificeis import prever_dificeis
 from src.exploracao import explorar
 from src.modelos import treinar
 from src.validacao import validar
@@ -18,3 +19,6 @@ vencedora = validar(modelos, x_train, y_train, "resultados/comparacao.csv")
 
 # Etapa 5 - Avaliação final, erros e palavras influentes
 avaliar(modelos[vencedora], vencedora in ["C", "D"], x_test, y_test)
+
+# Etapa 6 - Casos difíceis
+prever_dificeis(modelos[vencedora], vencedora in ["C", "D"], "data/casos_dificeis.csv", "resultados/casos_dificeis_predicoes.csv")
